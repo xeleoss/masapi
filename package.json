@@ -1,0 +1,20 @@
+{
+  "name": "masapi",
+  "homepage": "https://github.com/xeleoss/myanimespace-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xeleoss/myanimespace-api"
+  },
+  "url": "https://github.com/xeleoss/myanimespace-api/issues",
+  "license": "LGPL V3",
+  "author": {
+    "name": "Ivan Melentyev"
+  },
+  "bin": "./src/Api.ts",
+  "version": "0.0.11",
+  "engines": {
+    "typescript": "~3.5.2"
+  },
+  "main": "src/Api.js",
+  "types": "src/Api.d.ts"
+}
