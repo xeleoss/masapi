@@ -1,6 +1,5 @@
 {
   "name": "masapi",
-  "homepage": "https://github.com/xeleoss/myanimespace-api",
   "repository": {
     "type": "git",
     "url": "https://github.com/xeleoss/myanimespace-api"
@@ -11,10 +10,27 @@
     "name": "Ivan Melentyev"
   },
   "bin": "./src/Api.ts",
-  "version": "0.0.11",
+  "version": "0.0.17",
   "engines": {
     "typescript": "~3.5.2"
   },
   "main": "src/Api.js",
-  "types": "src/Api.d.ts"
+  "types": "src/Api.d.ts",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "files": [
+    "src/enums/MethodsEnum.d.ts",
+    "src/enums/ImageTypeEnum.d.ts",
+    "src/enums/SearchEnum.d.ts"
+  ],
+  "scripts": {
+    "build": "tsc && npm publish"
+  }
 }
